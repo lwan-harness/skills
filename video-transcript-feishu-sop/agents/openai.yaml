@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Transcript Feishu SOP"
+  short_description: "Transcribe videos, save SRT, and publish Feishu summaries"
+  default_prompt: "Use $video-transcript-feishu-sop to transcribe this video, save the cleaned SRT locally, create a summarized Feishu parent doc with an SVG illustration, and place the SRT as its child doc."
