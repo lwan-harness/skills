@@ -84,6 +84,8 @@ python3 scripts/srt_to_feishu_xml.py \
   --output "$OUT/feishu_srt_doc.xml"
 ```
 
+If `transcript_cleaned.srt` came from provided or platform subtitles, set `--note` to say that subtitles were used directly and that media download/whisper.cpp was skipped. If media download failed and subtitles were used as fallback, state both facts.
+
 Resolve the summary document's wiki node:
 
 ```bash
